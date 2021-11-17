@@ -1,0 +1,20 @@
+{
+  "name": "dynamic-rendering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "14.18.1"
+  },
+  "author": "Abdallah Dereia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "puppeteer": "^11.0.0"
+  }
+}
