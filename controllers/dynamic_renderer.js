@@ -1,6 +1,4 @@
 const isBot = require('../middleware/uAgentMiddleware').isBot
-const goToNormal = require('../middleware/goToNormal')
-const goToDynamic = require('../middleware/goToDynamic')
 const puppeteer = require('puppeteer')
 
 

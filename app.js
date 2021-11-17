@@ -2,8 +2,6 @@ const express = require('express')
 const app = express()
 const puppeteer = require('puppeteer')
 const helmet = require('helmet')
-const goToNormal = require('./middleware/goToNormal')
-const goToDynamic = require('./middleware/goToDynamic')
 const route = require('./routes/route')
 
 app.use(helmet())
